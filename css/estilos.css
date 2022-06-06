@@ -1,0 +1,506 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Cantata One', serif;
+    max-width: 1400px;
+}
+
+
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo{
+    font-family: 'Cookie', cursive;
+    color: #f69b7c;
+    font-size: 18px;    
+    width: 85%;    
+}
+
+.texto-logo{
+    width: 100%;
+    font-family: 'Cookie', cursive;
+}
+
+.corazon{
+    font-size: 18px;
+    margin-left: 5px;
+}
+.icono-menu{
+    display:flex;
+    width: 15%;
+    margin: 0px;
+    justify-content: flex-end;    
+}
+
+.menu{    
+    display: none;   
+}
+
+.portada-home{
+    width: 100%;
+    position: relative;    
+} 
+
+.portada-texto{
+    position: absolute;
+    top:10px;
+    left: 10px;
+    background: rgb(0,0,0,0);
+}
+
+.portada-img{
+    width: 100%;
+}
+
+.texto-titulo{
+    font-size: 30px;
+    font-weight: 800;
+    color: #F0F4F6;
+    background: rgb(0,0,0,0);
+   
+}
+
+.texto-subtitulo{
+    font-size: 15px;
+    font-weight: 800;
+    color: #F0F4F6;    
+    background: rgb(0,0,0,0);
+}
+
+.texto-subtitulodos{
+    display:none;
+}
+
+.titulo-container{
+    
+    color: #696969; 
+    text-align: center;   
+    justify-content: space-around;
+    margin: 10px 5px;
+    padding: 5px;
+    font-size: 12px;
+    background-color: rgba(231, 208 , 220, 0.8);
+}
+
+.saludo{
+    padding: 10px;
+    justify-self: center;
+    text-align: center;
+}
+
+.contenedor-imagenes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;    
+    width: 100%;  
+    flex-direction: row; 
+    
+}
+
+.contenedor-imagenes .card img{
+    width: 100%;
+}
+.card{
+    padding: 15px;
+}
+
+.bienvenida{
+    padding: 30px;
+    background-color: #DBDEED;
+}
+
+.contenido-bienvenida{
+    padding: 10px;
+    background-color:#DBDEED;  
+}
+.hola{
+    background-color: #DBDEED;
+    color:#696969;   
+} 
+
+
+.parrafo{
+    font-family: 'Cantata One', serif;
+    text-align: justify;
+    font-size: 14px;
+    color:#696969;    
+    line-height: 1.6rem;
+    font-weight: 300;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    background-color: #DBDEED ;
+     
+}
+
+.imagenseg{
+    display: none;
+}
+
+.pie{
+    background-color: #FFB070;
+    color: #696969;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+}
+
+#redes{
+    background-color: #FFB070;
+}
+
+.mail{
+    background-color: #FFB070;
+}
+
+/* Screen: Tablets y monitores de computadora */
+@media (min-width:768px) {
+    
+    
+    .texto-titulo{
+        font-size: 50px;
+        font-weight: 800;       
+    }
+
+    .texto-subtitulo{
+        font-size: 15px;
+        font-weight: 800;
+        padding-left: 15px;   
+    }
+
+     .texto-subtitulodos{
+        display:none;
+    }
+
+    .titulo-container{
+        
+        font-size: 15px;
+    
+    } 
+
+    .card{
+        padding: 50px;
+    }
+
+    .imagenseg{
+        display: none;
+    }
+       
+} 
+@media (min-width:1024px) {
+    .logo{
+        width: 32%;
+        font-size: 20px;
+    }
+    .corazon{
+        font-size: 20px;
+    }
+    .icono-menu{
+        display: none;
+    }
+
+    .menu{
+        display: flex;
+        width: 68%;
+        color: #f69b7c;
+        font-family: 'Cantata One', serif;
+        flex-flow: row nowrap;
+        align-items: center; 
+        list-style: none;   
+        justify-content: space-between;
+    }
+       
+    .menu-link{
+        text-decoration: none;        
+        color: #f69b7c;
+        font-family: 'Cantata One', serif;    
+        padding: 10px;           
+    }
+
+    .menu-link:hover{
+        background-color: #f69b7c;
+        color: white;
+        border-bottom: 2px solid #f69b7c;
+    }
+    .portada-img{
+        width: 100%;
+    }
+    
+    .texto-titulo{
+        font-size: 50px;
+        font-weight: 900;
+        padding-left: 50px;      
+    }
+    .texto-subtitulo{
+       display: none;
+    }
+
+    .texto-subtitulodos{
+        display: block;      
+        font-size: 20px;
+        font-weight: 900;        
+        color: #F0F4F6; 
+        text-align: center;
+        padding-left: 25px;    
+    } 
+
+    .contenedor-imagenes{
+        
+        grid-template-columns: 1fr 1fr 1fr;
+       
+        
+    }
+       
+    .bienvenida{            
+        width: 100%;        
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+
+    }  
+    .contenido-bienvenida{            
+        padding: 5px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        0px;
+
+    }
+    .contenedor-imagenes{
+    
+        max-width: 1300px;
+        margin: 0 auto;
+
+    }
+
+    .imagenseg{
+        display: inline;
+        justify-content: center;
+    }
+
+}
+
+@media (min-width:1200px) {
+
+    .logo{
+        
+        font-size: 25px;
+    }
+    .corazon{
+        font-size: 25px;
+    }
+
+    .icono-menu{
+        display: none;
+    }
+
+    .menu{
+        font-size: 20px;
+    }
+
+    .portada-texto{
+        position: absolute;      
+        right: 100px;
+        left: auto;
+        top: 45px;
+        background-color: rgba(1, 1, 1, 0.1);     
+
+              
+    }
+
+       .texto-titulo{
+        font-size: 50px;
+        font-weight: 900;
+        padding-right: 10px;
+       
+              
+    }
+    .texto-subtitulo{
+        display: none;
+       
+
+    }
+
+    .texto-subtitulodos{      
+        font-size: 20px;
+        font-weight: 900;        
+                
+    }
+
+    .contenedor-imagenes{
+      
+        max-width: 1300px;
+        margin: 0 auto;
+
+    }
+
+}   
+@media (min-width:1400px){
+
+    .logo{
+        
+        font-size: 28px;
+    }
+    .corazon{
+        font-size: 28px;
+    }
+
+    .icono-menu{
+        display: none;
+    }
+
+    .menu{
+        font-size: 20px;
+    }
+
+    .portada-texto{
+        position: absolute;      
+        right: 100px;
+        left: auto;
+        top: 45px;
+        background-color: rgba(1, 1, 1, 0.1);     
+    }
+
+       .texto-titulo{
+        font-size: 60px;      
+        padding-right: 10px;
+       
+              
+    }
+    .texto-subtitulo{
+        display: none;
+    }
+
+    .texto-subtitulodos{      
+        font-size: 20px;
+    }
+
+    .titulo-container{
+    
+        margin: 10px 5px;
+        padding: 5px;
+        font-size: 18px;
+        
+    }
+
+    .contenedor-imagenes{
+      
+        max-width: 1400px;
+        margin: 0 auto;
+
+    }
+
+    .bienvenida{
+        padding: 20px;
+       
+    }
+    
+    .contenido-bienvenida{
+        padding: 50px;          
+    }
+       
+    
+    .parrafo{
+       
+        font-size: 18px;
+    }
+
+    .pie{
+           
+        font-size: 18px;
+        padding: 20px;
+    }
+}
+
+
+/* Formulario */
+
+.recuadro{
+    background-color: #EAEDED ;
+    padding: 35px ;
+    align-items: center;
+    max-width: 1400px;
+    margin:15px;
+    
+}
+
+#formcontacto label{
+   
+    display: block;
+    letter-spacing:1px;
+    padding:10px 0px;
+}
+
+#formcontacto label,#formcontacto input{
+    display: block;
+}
+
+#formcontacto input{   
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#formcontacto textarea{   
+    width: 100%;
+}
+
+.enviar{
+    padding-top: 10px;
+}
+
+.co{
+    padding-top: 10px;
+}
+
+
+@media (min-width:768px){
+
+    .recuadro{       
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+.contacto{
+    padding-bottom: 80px;
+}
+  
+div#formcontacto{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;  
+    justify-content:space-around;    
+    width: 100%; 
+}
+div#formcontacto>div{
+    width: 80%;
+}
+.enviar{
+    text-align: left;
+}
+#formcontacto input.boton{
+    width: 50%;
+}
+}
+
+
+
+
+
+
+
+
+    
+        
+        
+           
+                   
+            
+        
