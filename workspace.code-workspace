@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\ejemplos-html-3"
+		},
+		{
+			"path": "..\\ejemplos-css-3"
+		},
+		{
+			"path": "..\\..\\..\\CURSO COD-EANDO\\CARPETA1"
+		},
+		{
+			"path": "..\\..\\..\\..\\Downloads\\clase9_2\\clase9"
+		},
+		{
+			"path": "..\\..\\..\\..\\Downloads\\clase9_3"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "clase9"
+	}
+}

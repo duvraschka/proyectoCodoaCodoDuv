@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/df10f3b0dd.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cantata+One&family=Cookie&family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/estilos.css">
+<script src="contacto.js"></script>
+    <title>DG</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../imgs/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../imgs/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../imgs/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <div id="contenedor-principal"> 
+    <header class="header">        
+             <div class="logo">
+                <h1 class="texto-logo">Duvraschka González<i class="fa-solid fa-heart corazon" ></i></h1>
+             </div>
+             <div class="icono-menu">
+                <i class="fa-solid fa-bars"></i>
+             </div>     
+        
+                 <ul class="menu" > 
+                          
+                      <li class="ul-item"><a href ="index.html" class="menu-link">Inicio</a></li>
+                      <li class="ul-item"><a href="#"class="menu-link">Formación</a></li>
+                      <li class="ul-item"><a href="#"class="menu-link">Blog</a></li>
+                      <li class="ul-item"><a href="#"class="menu-link">Contacto</a></li>    
+                 </ul>                    
+    </header> 
+    <div class="recuadro">
+     <h1 class="contacto">Contáctame</h1>      
+     <form id="contacto-form" action="noseadondeva" method="post" target="_blank">  
+      <div id="formcontacto">
+            <div class="nombreyapellido"> 
+                <label for="NombreyApellido">TU NOMBRE Y APELLIDO: </label>
+                <input type="text" id="NombreyApellido" name="NombreyApellido" size="30" placeholder="Ingrese su nombre y apellido">
+                <span class="error"></span>
+            </div>
+            <div class="pais">
+                <label for="país">TU PAÍS</label>
+                <input type="text" id="país" name="país" size="30" placeholder="Ingrese su País"> 
+                <span class="error" ></span>
+            </div>
+            <div class="email">
+                <label for="email">TU E-MAIL</label>
+                <input type="text" id="email" name="email" size="30" placeholder="Ingrese su e-mail">
+                <span class="error" ></span> 
+            </div>
+            <div class="asunto">
+                <label for="asunto">ASUNTO</label>
+                <input type="text" id="asunto" name="asunto" size="30" placeholder="Ingrese asunto">
+                <span class="error"></span>
+            </div>
+            <div>     
+                <label for="mensaje">TU MENSAJE</label>      
+                <textarea name="textomsj" id="textomsj" cols="40" rows="10" placeholder="Déjame Saber tus Inquietudes"></textarea>
+                   
+            </div>
+            <div></div>
+            <div>
+                <div class="enviar">
+                    <button class="boton" type="submit" value="Enviar">Enviar</button>         
+                   
+                </div>     
+                <div class="co">
+                   <label for="Campos Obligatorios(*)">Campos Obligatorios(*)</label>
+                </div>
+            </div>
+      </div>
+      
+     </form>
+    </div>
+       
+    <footer class="pie">
+       @2022 Copyright <br>
+        Email: <a class="mail" href="mailto:duvraschkag@gmail.com">duvraschkag@gmail.com</a><br>
+        <i id="redes" class="fa-brands fa-instagram"></i><i id="redes" class="fa-brands fa-facebook"></i><i id="redes" class="fa-brands fa-telegram"></i>
+    </footer>      
+ 
+</body>
+</html> 
